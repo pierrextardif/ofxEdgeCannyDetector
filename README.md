@@ -10,7 +10,7 @@ https://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/canny_detector/canny_
 
 - - - -
 
-![.](assets/1.png)
+![.](Assets/1.png)
 
 - - - -
 ## Getting Started
