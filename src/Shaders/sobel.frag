@@ -61,7 +61,8 @@ float GREYCol(vec3 rgb){
 }
 
 float GREYTex(sampler2DRect tex, vec2 uv){
-    vec3 rgb = Gaussian(tex, uv).rgb;
+//    vec3 rgb = Gaussian(tex, uv).rgb;
+    vec3 rgb = texture2DRect(tex, uv).rgb;
     return GREYCol(rgb);
     
 }
